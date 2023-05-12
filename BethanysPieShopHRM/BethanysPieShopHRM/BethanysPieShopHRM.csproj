@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Accounting\" />
+    <None Remove="HR\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Accounting\" />
+    <Folder Include="HR\" />
+  </ItemGroup>
 </Project>
